@@ -36,6 +36,7 @@ function incrementOnClick() {
       console.log('Incrémentez');
     });
 }
+
 // Exercice incrémentation
 function decrementOnClick() {
   document
