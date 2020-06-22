@@ -1,0 +1,19 @@
+* {
+  /*color: ;*/
+  font-size: 17px;
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  padding: 24px;
+  background-image: url(C:/Users/Sirius-Student/Documents/GitHub/Semaine-02/Exercices/creez-votre-cv/cityLove.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.lion_cv {
+  height: auto;
+  width: 15%;
+}
+ul {
+  padding-left: 20px;
+}
