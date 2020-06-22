@@ -1,5 +1,5 @@
 * {
-  /*color: ;*/
+  color: black;
   font-size: 17px;
   font-family: 'Oswald', sans-serif;
 }
@@ -8,7 +8,43 @@ body {
   background-image: url(C:/Users/Sirius-Student/Documents/GitHub/Semaine-02/Exercices/creez-votre-cv/cityLove.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  height: 100%;
   background-size: cover;
+  position: relative;
+}
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(48, 65, 80, 0.2);
+}
+/* .background_container {
+  background-image: url(C:/Users/Sirius-Student/Documents/GitHub/Semaine-02/Exercices/creez-votre-cv/cityLove.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+} */
+/* .background_container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(48, 65, 80, 0.5);
+} */
+/* .container_h1 {
+} */
+.name {
+  color: goldenrod;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
 }
 .lion_cv {
   height: auto;
