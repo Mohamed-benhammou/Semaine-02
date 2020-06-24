@@ -3,12 +3,14 @@ console.log(helloWorld);
 /* exercice 1.1 */
 const bonjour = `Bonjour je m'appelle`;
 const firstName = 'Mohamed';
-console.log(`${bonjour} ${firstName}`);
+const presentation = `${bonjour} ${firstName}`;
+/* console.log(presentation); */
 /* exercice 1.2 */
 const iHave = "J'ai";
-let age = 29;
+let ageNumber = 29;
 const year = 'ans';
-console.log(`${iHave} ${age} ${year}`);
+let iHaveAge = `${iHave} ${ageNumber} ${year}`;
+console.log(`${presentation} ${iHaveAge}`);
 /* exercice 1.3 */
 let siriusGroupeArray = ['Jo', 'Mohamed', 'Lea', 'Adam', 'Noé', 'Ali', 'Mike'];
 /*console.log(siriusGroupeArray[6]);*/
