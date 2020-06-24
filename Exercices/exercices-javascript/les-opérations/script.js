@@ -42,8 +42,7 @@ console.log(fourthNumber);
 function incrementOnClick() {
   document
     .getElementById('increment')
-    .addEventListener('click', function decrement() {
-      // Insérez ici le bout de code nécessaire à la réalisation de l'exercice sur la décrémentation, nous verrons plus tard à quoi ces lignes pré-existantes correspondent
+    .addEventListener('click', function increment() {
       let incrementCounter = 0;
       incrementCounter++;
 
@@ -55,8 +54,7 @@ function incrementOnClick() {
 function decrementOnClick() {
   document
     .getElementById('decrement')
-    .addEventListener('click', function increment() {
-      // Insérez ici le bout de code nécessaire à la réalisation de l'exercice sur la décrémentation, nous verrons plus tard à quoi ces lignes pré-existantes correspondent
+    .addEventListener('click', function decrement() {
       let decrementCounter = 100;
       decrementCounter--;
 
