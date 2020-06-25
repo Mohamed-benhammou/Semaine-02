@@ -10,6 +10,7 @@ function checkNumber() {
 }
 console.log(checkNumber());
 // exercice 3.1
+
 function isBiggerThanTen() {
   if (leftNumber > 10) {
     return true;
@@ -19,6 +20,7 @@ function isBiggerThanTen() {
 }
 console.log(isBiggerThanTen());
 // exercice 3.2
+
 function divisibleByTwo() {
   if (leftNumber % 2 === 0 && rightNumber % 2 === 0) {
     return true;
