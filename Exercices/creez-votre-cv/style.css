@@ -1,55 +1,63 @@
 * {
-  color: black;
-  font-size: 17px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
   font-family: 'Oswald', sans-serif;
 }
 body {
-  padding: 24px;
-  background-image: url(C:/Users/Sirius-Student/Documents/GitHub/Semaine-02/Exercices/creez-votre-cv/cityLove.jpg);
+  background-image: url(C:/Users/Sirius-Student/Desktop/cv_dev/cv_cityLove.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
   background-size: cover;
   position: relative;
+  margin: 0 10%;
+  padding: 0 5%;
+  height: 1900px;
 }
-body::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(48, 65, 80, 0.2);
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2em;
 }
-/* .background_container {
-  background-image: url(C:/Users/Sirius-Student/Documents/GitHub/Semaine-02/Exercices/creez-votre-cv/cityLove.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  background-size: cover;
-  position: relative;
-} */
-/* .background_container::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(48, 65, 80, 0.5);
-} */
-/* .container_h1 {
-} */
-.name {
+img {
+  height: 320px;
+}
+.title_h1 {
+  width: 50%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
   color: goldenrod;
-  font-size: 30px;
+  font-size: 3em;
   font-weight: bold;
   margin: 0;
 }
-.lion_cv {
-  height: auto;
-  width: 15%;
+.title_h1 h2 {
+  font-size: em;
 }
+
 ul {
   padding-left: 20px;
+}
+
+aside,
+section {
+  width: 60%;
+}
+aside h2,
+section h2 {
+  color: goldenrod;
+}
+
+p,
+ul {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+h2 {
+  margin-bottom: 2px;
 }
